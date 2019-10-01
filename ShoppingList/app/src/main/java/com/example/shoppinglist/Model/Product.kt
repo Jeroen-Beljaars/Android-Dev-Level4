@@ -12,7 +12,7 @@ data class Product (
     @ColumnInfo
     var quantity: Int,
 
-    @PrimaryKey
+    @PrimaryKey(autoGenerate = true)
     @ColumnInfo
     var id: Long? = null
 )

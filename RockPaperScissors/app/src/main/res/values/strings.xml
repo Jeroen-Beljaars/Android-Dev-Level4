@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Rock Paper Scissors</string>
+    <string name="welcome">Welcome</string>
+    <string name="instructions">Instructions: select rock, paper or scissors to play</string>
+    <string name="history">History</string>
+    <string name="vs">V.S.</string>
+    <string name="win">You win!</string>
+    <string name="lost">You Lose!</string>
+    <string name="draw">It\'s a tie!</string>
+    <string name="computer">Computer</string>
+    <string name="you">You</string>
+    <string name="statistics">Your all time statistics\nWin: %1$s Draw: %2$s Lose: %3$s</string>
+</resources>
