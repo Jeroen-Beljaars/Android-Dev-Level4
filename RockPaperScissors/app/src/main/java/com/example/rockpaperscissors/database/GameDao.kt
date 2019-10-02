@@ -9,7 +9,7 @@ import com.example.rockpaperscissors.model.Game
 @Dao
 interface GameDao {
 
-    @Query("SELECT * FROM game_table")
+    @Query("SELECT * FROM game_table order by date_played DESC")
     suspend fun getGameHistory(): List<Game>
 
     @Insert
